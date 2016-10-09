@@ -1,0 +1,40 @@
+.clearfix:after{
+    clear: both;
+    content: '.';
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+
+.input-group{
+    width: 500px;
+    height: 30px;
+    line-height: 25px;
+    padding: 8px;
+}
+.input-group .group-label{
+    text-align: right;
+    width: 100px;
+    float: left;
+
+}
+.input-group .group-input{
+    width: 400px;
+    float: left;
+}
+.input-group .group-input input{
+
+}
+
+.easyui-accordion .jd-menu{
+    padding: 8px 18px;
+    display: block;
+    border-bottom: 1px dotted #dddddd;
+
+}
+.easyui-accordion .jd-menu:hover{
+    background-color: #E0ECFF;
+}
+.easyui-accordion .jd-menu.active{
+    background-color: #E0ECFF;
+}
